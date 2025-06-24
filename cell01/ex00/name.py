@@ -1,4 +1,4 @@
-first_name= "Natthanan"
-last_name= "Patha"
+first_name= 'Natthanan'
+last_name= 'Patha'
 
-print(first_name+ " " +last_name)
+print(first_name+ ' ' +last_name)
