@@ -1,4 +1,5 @@
-i = int(input("Enter a number less than 25 \n"))
+i = int(input("Enter a number less than 25 "))
+print(i)
 
 if i <= 25:
     while i <= 25:
