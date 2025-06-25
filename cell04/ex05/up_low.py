@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 j=""
 n = input()
 for char in n:
