@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 i = int(input("Give me the first number: "))
 j = int(input("Give me the second number: "))
 print("Thank you!")
