@@ -3,7 +3,7 @@
 import sys
 x = sys.argv[1:]
 if len(x) != 1:
-    print("noe")
+    print("none")
 else:
     z =x[0]
     y = 0
