@@ -52,12 +52,3 @@ def checkmate(board):
                 return
             break
 
-    print("Fail")
-
-board = [
-        ["R", ".", ".", "."],
-        [".", "K", ".", "."],
-        [".", ".", "Q", "."],
-        [".", ".", ".", '.']
-]
-checkmate(board)
