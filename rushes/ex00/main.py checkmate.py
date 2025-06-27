@@ -34,6 +34,7 @@ def checkmate(board):
                 continue
             if piece == "B" or piece == "Q":
                 print("Success")
+                return 
             break
 
     lines = [(-1, -0), (1, 0), (0, -1), (0, 1)]
