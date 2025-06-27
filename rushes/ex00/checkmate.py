@@ -30,7 +30,7 @@ def checkmate(board):
                 print("Success")
                 return
 
-Diagonal for Bishop, Queen
+#Diagonal for Bishop, Queen
     diagonals = [(-1, -1), (-1, 1), (1, -1), (1, 1)]
     for dr, dc in diagonals:
         r = king_row + dr
