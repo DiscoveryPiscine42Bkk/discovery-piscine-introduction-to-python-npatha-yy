@@ -54,4 +54,12 @@ def checkmate(board):
 
     print("Fail")
 
+board = [
+        ["R", ".", ".", "."],
+        [".", "K", ".", "."],
+        [".", ".", "Q", "."],
+        [".", ".", ".", '.']
+]
+checkmate(board)
+
 
