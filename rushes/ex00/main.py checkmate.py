@@ -13,7 +13,7 @@ def checkmate(board):
         print("Fail")
         return
 
-    pawn_attracks = [(1, -1), (1, 1)]
+    pawn_attracks = [(-1, -1), (-1, 1)]
     for dr, dc in pawn_attracks:
         r = king_row + dr
         c = king_colum + dc
