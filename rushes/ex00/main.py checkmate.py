@@ -37,7 +37,7 @@ def checkmate(board):
                 return 
             break
 
-    lines = [(-1, -0), (1, 0), (0, -1), (0, 1)]
+    lines = [(-1, 0), (1, 0), (0, -1), (0, 1)]
     for dr, dc in lines:
         r = king_row + dr
         c = king_colum + dc
