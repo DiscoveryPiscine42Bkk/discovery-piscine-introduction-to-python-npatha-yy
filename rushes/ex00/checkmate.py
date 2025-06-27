@@ -7,7 +7,7 @@ def checkmate(board):
         if len(row) != size:
             print("Error: Board is not square.")
             return
-        
+
     #find king
     king_row = -1
     king_colum = -1
@@ -19,7 +19,7 @@ def checkmate(board):
     if king_row == -1:
         print("Fail")
         return
-    
+
     #check for Pawn
     pawn_attracks = [(-1,-1), (-1,1)]
     for dr, dc in pawn_attracks:
@@ -29,8 +29,8 @@ def checkmate(board):
             if board[r][c] == "P":
                 print("Success")
                 return
-            
-    # Diagonal for Bishop, Queen
+
+Diagonal for Bishop, Queen
     diagonals = [(-1, -1), (-1, 1), (1, -1), (1, 1)]
     for dr, dc in diagonals:
         r = king_row + dr
